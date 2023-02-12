@@ -46,12 +46,21 @@ Imageurl
 The following endpoints are provided by the project:
 #StudentController
 POST /students - Add a student
+
 PUT /students/{studentId} - Update a student's department
+
 DELETE /students/{studentId} - Delete a student
+
 GET /students - Get all students
+
 GET /students/{studentId} - Get student by id
+
 #EventController
+
 POST /events - Add an event
+
 PUT /events/{eventId} - Update an event
+
 DELETE /events/{eventId} - Delete an event
+
 GET /events/{date} - Get all events by date
